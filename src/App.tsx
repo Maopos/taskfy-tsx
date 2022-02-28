@@ -67,6 +67,7 @@ const App: React.FC = () => {
       <div className="App">
         <span className="heading">Taskify</span>
         <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd} />
+        <p style={{color: 'white', fontSize: '2rem'}}>← Drag and Drop →</p>
         <TodoList
           todos={todos}
           setTodos={setTodos}
